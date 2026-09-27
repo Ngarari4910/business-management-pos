@@ -1,0 +1,34 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Database credentials
+db.php
+config.php
+config.local.php
+
+# Logs
+*.log
+php_server.log
+
+# Local / temporary files
+tmp/
+temp/
+cache/
+
+# Uploaded user files
+uploads/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
